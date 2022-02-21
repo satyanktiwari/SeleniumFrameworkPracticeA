@@ -41,8 +41,9 @@ public class LoginPage {
         return url;
     }
 
+    //Dummy code added here
     public void isForgotPasswordLinkExist(){
-
+        System.out.println("Dummy code added here");
     }
 
 
