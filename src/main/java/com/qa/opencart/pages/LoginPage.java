@@ -20,6 +20,7 @@ public class LoginPage {
 //    public LoginPage(WebDriver driver) {
 //        this.driver = driver;
 //    }
+
     public LoginPage() {
         driver = DriverFactory.getDriver();
 //        elementUtils = new ElementUtils(driver);
