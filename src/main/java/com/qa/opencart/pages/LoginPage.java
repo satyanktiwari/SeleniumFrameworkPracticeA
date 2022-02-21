@@ -16,6 +16,7 @@ public class LoginPage {
     private By loginButton = By.xpath("//input[@class='btn btn-primary']");
     private By forgottenPasswordLink = By.cssSelector(".form-group a");
     private By registerLink = By.linkText("Register");
+    //Adding dummy comment for the commit to develop branch
 
 //    public LoginPage(WebDriver driver) {
 //        this.driver = driver;
@@ -38,6 +39,10 @@ public class LoginPage {
         String url = driver.getCurrentUrl();
         System.out.println("Login Page URL is: " + url);
         return url;
+    }
+
+    public void isForgotPasswordLinkExist(){
+
     }
 
 
